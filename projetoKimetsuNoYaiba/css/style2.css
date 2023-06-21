@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagem/hashi.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#box {
+    width: 100%;
+    background: linear-gradient(rgb(83, 83, 83), rgb(104, 51, 97));
+    position: fixed;
+}
+
+#box ul{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box ul li a{
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box ul li a:hover {
+    color: white;
+}
+
+#box img {
+    height: 75px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+#container div {
+    height: 750px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container img {
+    height: 400px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid pink;
+}
+
+#container h1 {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 4px 8px purple;
+}
+
+#container p {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 2px 4px 8px black;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 90px;
+    background: linear-gradient(rgb(104, 51, 97), rgb(83, 83, 83));
+    margin-top: 20px;
+}
+
+#footer img {
+    height: 50px;
+}
+
+#footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
